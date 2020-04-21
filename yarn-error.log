@@ -1,0 +1,75 @@
+Arguments: 
+  /home/brody/.nvm/versions/node/v13.6.0/bin/node /home/brody/.nvm/versions/node/v13.6.0/bin/yarn
+
+PATH: 
+  /home/brody/.nvm/versions/node/v13.6.0/bin:/usr/lib/jvm/java-13-openjdk/bin:/home/brody/.local/bin:/home/brody/.local/bin/tools:/home/brody/.zplug/bin:/opt/google-cloud-sdk/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/opt/cuda/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/brody/Android/Sdk/emulator:/home/brody/Android/Sdk/tools:/home/brody/Android/Sdk/tools/bin:/home/brody/Android/Sdk/platform-tools:/home/brody/.config/composer/vendor/bin:/home/brody/.scripts/
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz: Request failed "502 Bad Gateway"
+      at ResponseError.ExtendableBuiltin (/home/brody/.nvm/versions/node/v13.6.0/lib/node_modules/yarn/lib/cli.js:696:66)
+      at new ResponseError (/home/brody/.nvm/versions/node/v13.6.0/lib/node_modules/yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/home/brody/.nvm/versions/node/v13.6.0/lib/node_modules/yarn/lib/cli.js:67017:16)
+      at Request.emit (events.js:321:20)
+      at Request.module.exports.Request.onRequestResponse (/home/brody/.nvm/versions/node/v13.6.0/lib/node_modules/yarn/lib/cli.js:141542:10)
+      at ClientRequest.emit (events.js:321:20)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:602:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+      at TLSSocket.socketOnData (_http_client.js:471:22)
+      at TLSSocket.emit (events.js:321:20)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "test": "jest --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "~10.0.6",
+      "@react-native-community/masked-view": "0.1.6",
+      "@react-navigation/bottom-tabs": "^5.0.0",
+      "@react-navigation/native": "^5.0.0",
+      "@react-navigation/stack": "^5.0.0",
+      "@react-navigation/web": "~1.0.0-alpha.9",
+      "expo": "~37.0.3",
+      "expo-asset": "~8.1.3",
+      "expo-constants": "~9.0.0",
+      "expo-font": "~8.1.0",
+      "expo-web-browser": "~8.1.0",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+      "react-native-gesture-handler": "~1.6.0",
+      "react-native-safe-area-context": "0.7.3",
+      "react-native-screens": "~2.2.0",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "babel-preset-expo": "~8.1.0",
+      "jest-expo": "~37.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
